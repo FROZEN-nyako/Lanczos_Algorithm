@@ -2,7 +2,7 @@
 
 ## English Instruction Document
 
-The program provides an implementation of the Lanczos algorithm and employs MPI to perform parallel computation on multiple CPUs, reducing the actual runtime of the codes. The Lanczos algorithm is well-suited for finding the lowest few eigenstates of large sparse matrices, which has many applications in physics.
+This program provides an implementation of the Lanczos algorithm and employs MPI to perform parallel computation on multiple CPUs, reducing the actual runtime of the codes. The Lanczos algorithm is well-suited for finding the lowest few eigenstates of large sparse matrices, which has many applications in physics.
 
 The inputs of the program are as follows:
 
