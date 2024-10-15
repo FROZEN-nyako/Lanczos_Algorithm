@@ -1,4 +1,4 @@
-# Lanczos_Algorithm
+# Lanczos Algorithm
 
 ## English Instruction Document
 
