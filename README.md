@@ -7,9 +7,9 @@ This program provides an implementation of the Lanczos algorithm and employs MPI
 The inputs of the program are as follows:
 
 1. A $\texttt{scipy}$ sparse matrix in $\texttt{csr}$ format, $M$;
-2. The desired number of iterations, $m$ (in this program, for a $3000000 \times 3000000$ matrix, $2000$ iterations can converge approximately $27$ eigenstates);
+2. The desired number of iterations, $m$ (in this program, for a 3000000 × 3000000 matrix, 2000 iterations can converge approximately 27 eigenstates);
 3. The desired number of eigenstates to output, $n$ (depending on $m$, it may also output unconverged states);
-4. A parameter $\text{interval}$ for demonstration of convergence, e.g., if this parameter is set to $50$ and $2000$ iterations are performed, the current eigenvalues and corresponding residuals will be displayed every 50 iterations, for a total of 20 displays.
+4. A parameter $\text{interval}$ for demonstration of convergence, e.g., if this parameter is set to 50 and 2000 iterations are performed, the current eigenvalues and corresponding residuals will be displayed every 50 iterations, for a total of 20 displays.
 
 The outputs of the program are as follows:
 
@@ -28,9 +28,9 @@ Two functions, $\texttt{LanczosAlgorithm}$ and $\texttt{LanczosAlgorithmC}$, are
 本程序的输入如下：
 
 1. 一个 $\texttt{scr}$ 格式的 $\texttt{scipy}$ 稀疏矩阵 $M$；
-2. 希望的迭代次数 $m$（就本程序而言，对于一个 $3000000 \times 3000000$ 矩阵， $2000$ 次迭代能收敛约 $27$ 个特征向量）；
+2. 希望的迭代次数 $m$（就本程序而言，对于一个 3000000 × 3000000 矩阵，2000 次迭代能收敛约 27 个特征向量）；
 3. 希望输出的特征向量的个数 $n$（取决于 $m$，也可能输出未收敛的向量）；
-4. 一个用于展示收敛性的参数 $\text{interval}$，例如，若将此参数设为 $50$，并进行 $2000$ 次迭代，则会每隔 $50$ 次迭代展示一次当前得到的特征值和相应的残差，共展示 $20$ 次。
+4. 一个用于展示收敛性的参数 $\text{interval}$，例如，若将此参数设为 50，并进行 2000 次迭代，则会每隔 50 次迭代展示一次当前得到的特征值和相应的残差，共展示 20 次。
 
 本程序的输出如下：
 1. $n$ 个特征值；
